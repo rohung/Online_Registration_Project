@@ -115,6 +115,8 @@
    textarea:focus {
        outline: none;
        border: 3px solid #46698B;
+       background-color: khaki;
+       transition: all 0.25s ease-out;
        
    }
 
@@ -145,6 +147,12 @@
    input[type="radio"] {
       
        transform: scale(1.5);
+   }
+
+   label[for="topics"] {
+       padding-left: 0px;
+       font-size: 20px;
+       margin-top: 29px;
    }
 
    textarea {
@@ -198,7 +206,7 @@
     }
 
     #zip {
-        max-width: 25%;
+        max-width: 135.25px;
     }
 
     .set-name,
