@@ -47,14 +47,12 @@
 
     fieldset:first-child {
         border:0;
-        margin: 30px 5px 0px 5px;
+        margin: 30px 0px 0px 0px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         padding: 0px;
         border-bottom: 3px solid #333;
-        margin-left: 0;
-        margin-right: 0;
         padding-bottom: 50px;
         min-width: 280px;
         
@@ -206,8 +204,11 @@
         
     }
 
+    .set-zip-width {
+        width: 75%;
+    }
     #zip {
-        max-width: 135.25px;
+        max-width: 25%;
     }
 
     .set-name,
